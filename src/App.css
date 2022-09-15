@@ -1,0 +1,35 @@
+header{
+  border-bottom: 1px solid lightgray;
+  font-size: .7rem;
+}
+#Container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Tarjeta{
+  margin: .5em;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  height: 20rem;
+  width: 28rem;
+} 
+.Img{
+  height: 17rem;
+  width: 100%;
+  background-color: aliceblue;
+}
+.TarjetaTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TarjetaTitle h3{
+  width: fit-content;
+}
+.Lapiz{
+  height: min-content;
+  width: auto;
+  background-color: aliceblue;
+}
